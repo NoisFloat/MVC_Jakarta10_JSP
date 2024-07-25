@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource name="jdbc/mysql" auth="Container" type="javax.sql.DataSource"
+              maxTotal="20" maxIdle="10" maxWaitMillis="5000"
+              username="root" password="gf222473" driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost/inventario_libros"/>
+</Context>
